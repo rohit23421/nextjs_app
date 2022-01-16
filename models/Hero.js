@@ -11,7 +11,7 @@ const heroSchema = new mongoose.Schema(
     realName: {
       type: String,
       required: true,
-      maxlength: [200, "Max 200 characters"],
+      maxlength: [9000, "Max 9000 characters"],
     },
   },
   { timestamps: true }
